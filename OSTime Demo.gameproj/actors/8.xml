@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id368753" PGFVersion="0.17" GSCVersion="0.9.91">
+<actor id="id368753" PGFVersion="0.19" GSCVersion="0.10.4">
   <attributes>
     <text id="name">WaterMeter1</text>
     <real id="time">0</real>
@@ -31,7 +31,7 @@
         <real id="compoundConditionKind">0</real>
       </attributes>
       <conditions>
-        <condition id="id219556" eventType="touch">
+        <condition id="id219556" eventType="touch" pluginPredicateTypeIndex="0">
           <attributes>
             <index id="conditionType">0</index>
           </attributes>
@@ -39,7 +39,7 @@
             <attributes />
           </predicate>
         </condition>
-        <condition id="id813229" eventType="mouse button">
+        <condition id="id813229" eventType="mouse button" pluginPredicateTypeIndex="0">
           <attributes>
             <index id="conditionType">1</index>
             <text id="subjectAttribute">game.attributes.id253374</text>
@@ -114,7 +114,7 @@ The attributes below reset some values. The first resets the WaterReady game att
         <real id="compoundConditionKind">0</real>
       </attributes>
       <conditions>
-        <condition id="id115837" eventType="mouse button">
+        <condition id="id115837" eventType="mouse button" pluginPredicateTypeIndex="0">
           <attributes>
             <index id="conditionType">1</index>
             <text id="subjectAttribute">game.attributes.id253374</text>
@@ -216,6 +216,8 @@ The attributes below reset some values. The first resets the WaterReady game att
         <enumeration id="verticalAnchor">0</enumeration>
         <boolean id="flipHorizontally">false</boolean>
         <boolean id="flipVertically">false</boolean>
+        <integer id="tileWidth" name="tileWidth">0</integer>
+        <integer id="tileHeight" name="tileHeight">0</integer>
       </attributes>
     </graphics>
     <motion>

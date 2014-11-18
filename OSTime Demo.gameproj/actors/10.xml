@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id979632" PGFVersion="0.17" GSCVersion="0.9.91">
+<actor id="id979632" PGFVersion="0.19" GSCVersion="0.10.4">
   <attributes>
     <text id="name">Flower</text>
     <real id="time">0</real>
@@ -71,7 +71,7 @@ The timestamp below will give an approximation in minutes for time since January
             <real id="compoundConditionKind">0</real>
           </attributes>
           <conditions>
-            <condition id="id416740" eventType="mouse button">
+            <condition id="id416740" eventType="mouse button" pluginPredicateTypeIndex="0">
               <attributes>
                 <index id="conditionType">1</index>
                 <text id="subjectAttribute">self.attributes.id759103</text>
@@ -137,7 +137,7 @@ Check the otherwise sections for additional behaviors.
             <real id="compoundConditionKind">0</real>
           </attributes>
           <conditions>
-            <condition id="id943765" eventType="mouse button">
+            <condition id="id943765" eventType="mouse button" pluginPredicateTypeIndex="0">
               <attributes>
                 <index id="conditionType">1</index>
                 <text id="subjectAttribute">self.attributes.id759103</text>
@@ -183,7 +183,7 @@ Check the otherwise sections for additional behaviors.
                 <real id="compoundConditionKind">0</real>
               </attributes>
               <conditions>
-                <condition id="id943765" eventType="mouse button">
+                <condition id="id943765" eventType="mouse button" pluginPredicateTypeIndex="0">
                   <attributes>
                     <index id="conditionType">1</index>
                     <text id="subjectAttribute">self.attributes.id759103</text>
@@ -229,7 +229,7 @@ Check the otherwise sections for additional behaviors.
                     <real id="compoundConditionKind">0</real>
                   </attributes>
                   <conditions>
-                    <condition id="id943765" eventType="mouse button">
+                    <condition id="id943765" eventType="mouse button" pluginPredicateTypeIndex="0">
                       <attributes>
                         <index id="conditionType">1</index>
                         <text id="subjectAttribute">self.attributes.id759103</text>
@@ -290,7 +290,7 @@ Check the otherwise sections for additional behaviors.
         <real id="compoundConditionKind">0</real>
       </attributes>
       <conditions>
-        <condition id="id864945" eventType="mouse button">
+        <condition id="id864945" eventType="mouse button" pluginPredicateTypeIndex="0">
           <attributes>
             <index id="conditionType">1</index>
             <text id="subjectAttribute">game.attributes.id448290</text>
@@ -357,6 +357,8 @@ Check the otherwise sections for additional behaviors.
         <enumeration id="verticalAnchor">0</enumeration>
         <boolean id="flipHorizontally">false</boolean>
         <boolean id="flipVertically">false</boolean>
+        <integer id="tileWidth" name="tileWidth">0</integer>
+        <integer id="tileHeight" name="tileHeight">0</integer>
       </attributes>
     </graphics>
     <motion>

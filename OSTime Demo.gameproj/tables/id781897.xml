@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<table version="0.000000" name="Purchases" numRows="1" numCols="8" flags="58" tableType="3">
+<table version="0.000000" name="Purchases" numRows="1" numCols="8" flags="58" tableType="3" tableSkew="0">
     <rows>
         <row id="0" name=""/>
     </rows>
@@ -14,3 +14,4 @@
         <column id="7" name="Attempting Purchase" type="4" readonly="1">   False</column>
     </columns>
 </table>
+

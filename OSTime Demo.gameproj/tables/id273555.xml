@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<table version="0.000000" name="QQ Achievements" numRows="1" numCols="5" flags="59" tableType="2">
+<table version="0.000000" name="QQ Achievements" numRows="1" numCols="5" flags="59" tableType="2" tableSkew="0">
     <rows>
         <row id="0" name=""/>
     </rows>
@@ -11,3 +11,4 @@
         <column id="4" name="Progress Percent" type="3" readonly="0">   0</column>
     </columns>
 </table>
+

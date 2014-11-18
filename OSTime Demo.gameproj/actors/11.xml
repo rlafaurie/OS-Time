@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id259996" PGFVersion="0.17" GSCVersion="0.9.91">
+<actor id="id259996" PGFVersion="0.19" GSCVersion="0.10.4">
   <attributes>
     <text id="name">WaterMeter</text>
     <real id="time">0</real>
@@ -59,6 +59,8 @@ The water meter will fill back up over time. As game.WaterReadyPercent increases
         <enumeration id="verticalAnchor">0</enumeration>
         <boolean id="flipHorizontally">false</boolean>
         <boolean id="flipVertically">false</boolean>
+        <integer id="tileWidth" name="tileWidth">0</integer>
+        <integer id="tileHeight" name="tileHeight">0</integer>
       </attributes>
     </graphics>
     <motion>

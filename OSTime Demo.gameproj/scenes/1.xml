@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<scene PGFVersion="0.17" GSCVersion="0.9.91" id="id269551">
+<scene PGFVersion="0.19" GSCVersion="0.10.4" id="id269551">
   <layers>
     <layer id="id112326">
       <actors>
@@ -13,7 +13,10 @@
           </attributes>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>
@@ -32,6 +35,12 @@
               <real id="height">48</real>
             </size>
             <angle id="rotation">0</angle>
+            <color id="color">
+              <real id="red">0.941176470588235</real>
+              <real id="green">0.968627450980392</real>
+              <real id="blue">0</real>
+              <real id="alpha">1</real>
+            </color>
           </attributes>
           <behaviors>
             <behavior id="id979928" class="ConstrainAttributeBehavior" enabled="true">
@@ -51,7 +60,10 @@
           </behaviors>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>
@@ -69,6 +81,12 @@
               <real id="width">32</real>
               <real id="height">48</real>
             </size>
+            <color id="color">
+              <real id="red">0.968627450980392</real>
+              <real id="green">0.874509803921569</real>
+              <real id="blue">0</real>
+              <real id="alpha">1</real>
+            </color>
           </attributes>
           <behaviors>
             <behavior id="id979928" class="ConstrainAttributeBehavior" enabled="true">
@@ -88,7 +106,10 @@
           </behaviors>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>
@@ -106,6 +127,12 @@
               <real id="width">32</real>
               <real id="height">48</real>
             </size>
+            <color id="color">
+              <real id="red">0.968627450980392</real>
+              <real id="green">0.905882352941176</real>
+              <real id="blue">0</real>
+              <real id="alpha">1</real>
+            </color>
           </attributes>
           <behaviors>
             <behavior id="id979928" class="ConstrainAttributeBehavior" enabled="true">
@@ -125,7 +152,10 @@
           </behaviors>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>
@@ -144,10 +174,19 @@
               <real id="height">48</real>
             </size>
             <angle id="rotation">0</angle>
+            <color id="color">
+              <real id="red">0.968627450980392</real>
+              <real id="green">0.933333333333333</real>
+              <real id="blue">0</real>
+              <real id="alpha">1</real>
+            </color>
           </attributes>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>
@@ -165,6 +204,12 @@
               <real id="width">32</real>
               <real id="height">48</real>
             </size>
+            <color id="color">
+              <real id="red">0.968627450980392</real>
+              <real id="green">0.933333333333333</real>
+              <real id="blue">0</real>
+              <real id="alpha">1</real>
+            </color>
           </attributes>
           <behaviors>
             <behavior id="id979928" class="ConstrainAttributeBehavior" enabled="true">
@@ -184,7 +229,10 @@
           </behaviors>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>
@@ -202,6 +250,12 @@
               <real id="width">32</real>
               <real id="height">48</real>
             </size>
+            <color id="color">
+              <real id="red">0.941176470588235</real>
+              <real id="green">0.968627450980392</real>
+              <real id="blue">0</real>
+              <real id="alpha">1</real>
+            </color>
           </attributes>
           <behaviors>
             <behavior id="id979928" class="ConstrainAttributeBehavior" enabled="true">
@@ -221,7 +275,10 @@
           </behaviors>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>
@@ -239,6 +296,12 @@
               <real id="width">32</real>
               <real id="height">48</real>
             </size>
+            <color id="color">
+              <real id="red">0.968627450980392</real>
+              <real id="green">0.905882352941176</real>
+              <real id="blue">0</real>
+              <real id="alpha">1</real>
+            </color>
           </attributes>
           <behaviors>
             <behavior id="id979928" class="ConstrainAttributeBehavior" enabled="true">
@@ -258,7 +321,10 @@
           </behaviors>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>
@@ -276,6 +342,12 @@
               <real id="width">32</real>
               <real id="height">48</real>
             </size>
+            <color id="color">
+              <real id="red">0.968627450980392</real>
+              <real id="green">0.905882352941176</real>
+              <real id="blue">0</real>
+              <real id="alpha">1</real>
+            </color>
           </attributes>
           <behaviors>
             <behavior id="id979928" class="ConstrainAttributeBehavior" enabled="true">
@@ -295,7 +367,10 @@
           </behaviors>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>
@@ -314,6 +389,12 @@
               <real id="height">88</real>
             </size>
             <angle id="rotation">0</angle>
+            <color id="color">
+              <real id="red">0.215686274509804</real>
+              <real id="green">0.968627450980392</real>
+              <real id="blue">0</real>
+              <real id="alpha">1</real>
+            </color>
           </attributes>
           <behaviors>
             <behavior id="id979928" class="ConstrainAttributeBehavior" enabled="true">
@@ -333,7 +414,10 @@
           </behaviors>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>
@@ -352,6 +436,12 @@
               <real id="height">88</real>
             </size>
             <angle id="rotation">0</angle>
+            <color id="color">
+              <real id="red">0.243137254901961</real>
+              <real id="green">0.968627450980392</real>
+              <real id="blue">0</real>
+              <real id="alpha">1</real>
+            </color>
           </attributes>
           <behaviors>
             <behavior id="id487037" class="ConstrainAttributeBehavior" enabled="true">
@@ -371,7 +461,10 @@
           </behaviors>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>
@@ -409,7 +502,10 @@
           </behaviors>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>
@@ -447,7 +543,10 @@
           </behaviors>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>
@@ -466,10 +565,19 @@
               <real id="height">88</real>
             </size>
             <angle id="rotation">0</angle>
+            <color id="color">
+              <real id="red">0.988235294117647</real>
+              <real id="green">0.988235294117647</real>
+              <real id="blue">0.988235294117647</real>
+              <real id="alpha">1</real>
+            </color>
           </attributes>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>
